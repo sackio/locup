@@ -1,6 +1,6 @@
 # locup
 
-locup is a [Node.js](http://nodejs.org) module simple geocoding. Use it to get the coordinates for addresses and to get addresses for coordinates.
+locup is a [Node.js](http://nodejs.org) module for simple geocoding. Use it to get the coordinates for addresses and to get addresses for coordinates.
 
 Currently, locup uses Google's geocoding API, but it's ready to be extended to multiple providers.
 
