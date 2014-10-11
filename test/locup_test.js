@@ -2,7 +2,8 @@
 
 var Belt = require('jsbelt')
   , Optionall = require('optionall')
-  , O = new Optionall()
+  , Path = require('path')
+  , O = new Optionall({'__dirname': Path.resolve('./')})
   , Async = require('async')
   , _ = require('underscore')
   , Locup = new require('../lib/locup.js')(_.extend({'api_key': O.google.server_api_key}, O))
