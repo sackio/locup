@@ -97,12 +97,12 @@ exports['units'] = {
     , function(cb){
         return Locup.providers.mapquest.reverse_geocode(globals.geo5[0], globals.geo5[1], Belt.cs(cb, globals, 'geo5b', 1, 0));
       }
-    /*, function(cb){
+    , function(cb){
         return Locup.providers.mapquest.geocode(globals.address4, function(err, res){
-          test.ok(err);
+          //test.ok(err);
           return cb();
         });
-      }*/
+      }
     , function(cb){
         test.ok(globals.geo1b);
         test.ok(globals.geo2b);
